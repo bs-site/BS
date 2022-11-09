@@ -1,11 +1,18 @@
 /* background color*/
 
 body{
-	background-image:src"photo/wood.jpg";
+	background-image: photo/wood.jpg;
 	font-family: 'open sasns', sans-serif;
 	margin: 0;
 }
 
+html {
+   background: url(photo/wood.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
 .header-og{
 	text-align: center;
 }
